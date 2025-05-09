@@ -1,0 +1,69 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-block;
+}
+
+input {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 300px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fake-button {
+  display: inline-block;
+  background-color: #ff69b4;
+  color: black;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.icon-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.ye {
+  width: 40px;
+  height: auto;
+  cursor: none;
+}
